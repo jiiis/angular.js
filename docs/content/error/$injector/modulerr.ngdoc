@@ -15,6 +15,10 @@ In AngularJS `1.2.0` and later, `ngRoute` has been moved to its own module.
 If you are getting this error after upgrading to `1.2.x` or later, be sure that you've
 installed {@link ngRoute `ngRoute`}.
 
+### Injecting during the `config` phase
+
+This error also occurs when you try to inject a non-provider service into the `config` block of a module.
+
 ### Monkey-patching Angular's `ng` module
 
 This error can also occur if you have tried to add your own components to the `ng` module.
